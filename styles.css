@@ -1,0 +1,62 @@
+/* style.css */
+
+
+html,
+body{
+	height: 100%;
+}
+
+img{
+	max-width: 100%;
+}
+
+.navbar .form-inline{
+	margin-bottom: 10px;
+}
+
+#what-we-do, #news{
+	padding: 5rem 0;
+}
+#cover{
+	background: #222 url('images/sky.jpg') center center no-repeat;
+	background-size: cover;
+	color: white;
+	height: 100%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+
+#cover-caption{
+	width: 100%;
+}
+
+.navbar{
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	border: 0px;
+}
+
+#carousel{
+	width: 100%;
+	
+}
+
+#about{
+	background: url("images/about.jpeg") center center no-repeat;
+	background-size: cover;
+}
+
+.about-text{
+	background: rgba(0,0,0,0.8);
+	color: white;
+	padding: 1.875rem;
+}
+
+
+#footer-main{
+	background: #222;
+	color: white;
+	font-size: 0.8rem;
+	padding: 2.5rem 0;
+}
